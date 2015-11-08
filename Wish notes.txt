@@ -1,0 +1,2 @@
+Q:The verify can't post to Login/login.html
+A:The clue maybe is config session_type='db' cause,Why,It's OK suddenly ! I doubt it's a config problem 'SESSION_TYPE'=>'Db' cause ! It's default is file store !I delete the project from netbeans ,clear the Runtime folder,change the session_type to default ! 
